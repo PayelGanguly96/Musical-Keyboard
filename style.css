@@ -1,0 +1,85 @@
+/**********
+General
+***********/
+body {
+  background-color: black;
+}
+
+/**********
+MusicContainer
+***********/
+#container {
+  height: 100px;
+  width: 850px;
+  margin: 0 auto;
+  margin-top: 100px;
+  /**********
+  List(li) styling & effects
+  ***********/
+  /*ul li:hover{
+    -webkit-transform: rotateZ(0turn);
+  } */
+}
+#container ul {
+  list-style: none;
+}
+#container ul li {
+  height: 80px;
+  width: 80px;
+  border-radius: 0%;
+  background-color: black;
+  display: inline-block;
+  float: left;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  transition: all 0.5s;
+}
+#container #a {
+  background: rgba(250, 0, 0, 0.2);
+  border: 3px ridge red;
+}
+#container #b {
+  background: rgba(0, 0, 255, 0.2);
+  border: 3px ridge blue;
+}
+#container #c {
+  background: rgba(165, 42, 42, 0.2);
+  border: 3px ridge brown;
+}
+#container #d {
+  background: rgba(255, 255, 255, 0.2);
+  border: 3px ridge grey;
+}
+#container #e {
+  background: rgba(0, 128, 0, 0.2);
+  border: 3px ridge green;
+}
+#container #f {
+  background: rgba(255, 165, 0, 0.2);
+  border: 3px ridge orange;
+}
+#container #g {
+  background: rgba(128, 0, 128, 0.2);
+  border: 3px ridge purple;
+}
+#container #a:active {
+  -webkit-transform: scale(-1, 2);
+}
+#container #b:active {
+  -webkit-transform: skew(20deg, 20deg);
+}
+#container #c:active {
+  -webkit-transform: rotate3d(24, 3, 4, 90deg);
+}
+#container #d:active {
+  -webkit-transform: matrix(1, -0.3, 1, -1, -2, 0);
+}
+#container #e:active {
+  -webkit-transform: translate(10px, 53px);
+}
+#container #f:active {
+  -webkit-transform: rotateZ(130deg);
+}
+#container #g:active {
+  -webkit-transform: skew(80deg, 180deg);
+}

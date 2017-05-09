@@ -1,0 +1,58 @@
+/**********
+General
+***********/
+body{
+  background-color: black;
+}
+
+/**********
+MusicContainer
+***********/
+#container{
+  height: 100px;
+  width: 850px;
+  margin: 0 auto;
+  margin-top: 100px;
+
+  /**********
+  List(li) styling & effects
+  ***********/
+  ul{
+    list-style: none;
+  }
+
+
+  ul li{
+    height: 80px;
+    width: 80px;
+    border-radius: 0%;
+    background-color: black;
+    display: inline-block;
+    float: left;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    transition: all 0.5s;
+  }
+
+  /*ul li:hover{
+    -webkit-transform: rotateZ(0turn);
+  } */
+
+
+  #a{background: rgba(250, 0, 0, 0.2); border: 3px ridge red;}
+  #b{background: rgba(0, 0, 255, 0.2); border: 3px ridge blue;}
+  #c{background: rgba(165, 42, 42, 0.2); border: 3px ridge brown;}
+  #d{background: rgba(255, 255, 255, 0.2); border: 3px ridge grey;}
+  #e{background: rgba(0, 128, 0, 0.2); border: 3px ridge green;}
+  #f{background: rgba(255, 165, 0, 0.2); border: 3px ridge orange;}
+  #g{background: rgba(128, 0, 128, 0.2); border: 3px ridge purple;}
+
+
+  #a:active{-webkit-transform: scale(-1, 2);}
+  #b:active{-webkit-transform: skew(20deg, 20deg);}
+  #c:active{-webkit-transform: rotate3d(24, 3, 4, 90deg);}
+  #d:active{-webkit-transform: matrix(1, -0.3, 1, -1, -2, 0);}
+  #e:active{-webkit-transform: translate(10px, 53px);}
+  #f:active{-webkit-transform: rotateZ(130deg);}
+  #g:active{-webkit-transform: skew(80deg, 180deg);}
+}
